@@ -8,13 +8,17 @@ package Modelo;
  *
  * @author Alumno
  */
-public class JavaApplication1 {
+public class modelo {
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+   
+   public int celsiusAFarenheit(int celsius){
+       return (celsius * 9/5) + 32;
+   }
     
+   public int farenheitACelsius(int farenheit){
+       return (farenheit - 32) * 5/9;
+   }
 }
